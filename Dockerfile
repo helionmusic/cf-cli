@@ -8,6 +8,8 @@ RUN apt-get update && apt-get -y install \
         git \
         jq \
         unzip \
+        apt-transport-https \
+        ca-certificates \
         wget && \
     rm -rf /var/lib/apt/lists/*
 
